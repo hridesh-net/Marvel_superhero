@@ -3,8 +3,8 @@ $(document).ready(function () {
     var timestamp = new Date().getTime();
 
     // Get the public and private keys
-    var public_key = "YOUR_PUBLIC_KEY";
-    var private_key = "YOUR_PRIVATE_KEY";
+    var public_key = "29760a1afbb9d289763d11b2bb2a66c8";
+    var private_key = "30ce48eb635fe2b0cb5f9f51800e79ebe2c2fcd3";
 
     // Create the hash
     var hash = CryptoJS.MD5(timestamp + private_key + public_key).toString();
