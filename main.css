@@ -1,0 +1,52 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}
+
+.col-md-4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-md-4 h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.col-md-4 p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.col-md-4 button {
+    margin-top: 10px;
+}
